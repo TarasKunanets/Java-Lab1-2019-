@@ -130,11 +130,11 @@ public class GasMeter {
 		System.out.println("Distance = " + Elster.getDistance());
 		System.out.println("Name = " + Elster.getName() + "\n");
 
-		GasMeter Vizar = new GasMeter(222, 33, "E" ,"MetrixFacrory");
+		GasMeter Vizard = new GasMeter(222, 33, "E" ,"MetrixFacrory");
 
-		System.out.println("Qmax = " + Vizar.getQmax());
-		System.out.println("Distance = " + Vizar.getDistance());
-		System.out.println("Name = " + Vizar.getName() + "\n");
+		System.out.println("Qmax = " + Vizard.getQmax());
+		System.out.println("Distance = " + Vizard.getDistance());
+		System.out.println("Name = " + Vizard.getName() + "\n");
 
 		GasMeter SamGas = new GasMeter(11, 55, "R" ,"VizarFacrory");
 
