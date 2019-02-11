@@ -3,9 +3,9 @@ import java.awt.TextArea;
 import java.util.Scanner;
 
 public class GasMeter {
-	public int qmax;
-	public int distance;
-	public String name;
+	private int qmax;
+	private int distance;
+	private String name;
 	private String factory;
 	private String type;
 	protected String customer;
