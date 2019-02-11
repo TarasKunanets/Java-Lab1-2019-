@@ -142,11 +142,11 @@ public class GasMeter {
 		System.out.println("Distance = " + SamGas.getDistance());
 		System.out.println("Name = " + SamGas.getName() + "\n");
 
-		GasMeter MetrixUG = new GasMeter(66, 7, "T" ,"ElsterFacrory");
+		GasMeter MetrixUG1 = new GasMeter(66, 7, "T" ,"ElsterFacrory");
 
-		System.out.println("Qmax = " + MetrixUG.getQmax());
-		System.out.println("Distance = " + MetrixUG.getDistance());
-		System.out.println("Name = " + MetrixUG.getName() + "\n");
+		System.out.println("Qmax = " + MetrixUG1.getQmax());
+		System.out.println("Distance = " + MetrixUG1.getDistance());
+		System.out.println("Name = " + MetrixUG1.getName() + "\n");
 	}
 
 }
