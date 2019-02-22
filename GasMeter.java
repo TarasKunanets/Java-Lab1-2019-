@@ -100,16 +100,18 @@ public class GasMeter {
 	}
 
 
-	@Override
+
 	public String toString() {
-		System.out.println("Qmax = " + getQmax());
-		System.out.println("Distance = " + getDistance());
-		System.out.println("Name = " + getName() + "\n");
-		return super.toString();
+		return " Qmax: " + qmax + "\n Distaance: " + distance + "Name: "
+		+ name;
 
 	}
 
 	static void printStaticNumber() {
+		System.out.println(number);
+	}
+	
+	static void printNumber() {
 		System.out.println(number);
 	}
 
@@ -118,32 +120,26 @@ public class GasMeter {
 	public static void main(String[] args) {
 
 		GasMeter MetriG1 = new GasMeter(4, 5, "Q","GsFacrory");
-		System.out.println("Qmax = " + MetriG1.toString());
-
 		System.out.println("Qmax = " + MetriG1.getQmax());
 		System.out.println("Distance = " + MetriG1.getDistance());
 		System.out.println("Name = " + MetriG1.getName() + "\n");
 
 		GasMeter Elster = new GasMeter(1, 3, "W" ,"LvivFacrory");
-		System.out.println("Qmax = " + Elster.toString());
 		System.out.println("Qmax = " + Elster.getQmax());
 		System.out.println("Distance = " + Elster.getDistance());
 		System.out.println("Name = " + Elster.getName() + "\n");
 
 		GasMeter Vizard = new GasMeter(222, 33, "E" ,"MetrixFacrory");
-
 		System.out.println("Qmax = " + Vizard.getQmax());
 		System.out.println("Distance = " + Vizard.getDistance());
 		System.out.println("Name = " + Vizard.getName() + "\n");
 
 		GasMeter SamGas = new GasMeter(11, 55, "R" ,"VizarFacrory");
-
 		System.out.println("Qmax = " + SamGas.getQmax());
 		System.out.println("Distance = " + SamGas.getDistance());
 		System.out.println("Name = " + SamGas.getName() + "\n");
 
 		GasMeter MetrixUG1 = new GasMeter(66, 7, "T" ,"ElsterFacrory");
-
 		System.out.println("Qmax = " + MetrixUG1.getQmax());
 		System.out.println("Distance = " + MetrixUG1.getDistance());
 		System.out.println("Name = " + MetrixUG1.getName() + "\n");
