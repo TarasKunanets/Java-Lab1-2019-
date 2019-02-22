@@ -119,10 +119,10 @@ public class GasMeter {
 
 	public static void main(String[] args) {
 
-		GasMeter MetriG1 = new GasMeter(4, 5, "Q","GsFacrory");
-		System.out.println("Qmax = " + MetriG1.getQmax());
-		System.out.println("Distance = " + MetriG1.getDistance());
-		System.out.println("Name = " + MetriG1.getName() + "\n");
+		GasMeter MetriG12 = new GasMeter(4, 5, "Q","GsFacrory");
+		System.out.println("Qmax = " + MetriG12.getQmax());
+		System.out.println("Distance = " + MetriG12.getDistance());
+		System.out.println("Name = " + MetriG12.getName() + "\n");
 
 		GasMeter Elster = new GasMeter(1, 3, "W" ,"LvivFacrory");
 		System.out.println("Qmax = " + Elster.getQmax());
