@@ -1,6 +1,5 @@
+package ua.lviv.iot.lab1;
 
-import java.awt.TextArea;
-import java.util.Scanner;
 
 public class GasMeter {
 	private int qmax;
@@ -119,30 +118,31 @@ public class GasMeter {
 
 	public static void main(String[] args) {
 
-		GasMeter MetriG12 = new GasMeter(4, 5, "Q","GsFacrory");
-		System.out.println("Qmax = " + MetriG12.getQmax());
-		System.out.println("Distance = " + MetriG12.getDistance());
-		System.out.println("Name = " + MetriG12.getName() + "\n");
+		GasMeter metriG12 = new GasMeter(4, 5, "Q","GsFacrory");
+		System.out.println("Qmax = " + metriG12.getQmax());
+		System.out.println("Distance = " + metriG12.getDistance());
+		System.out.println("Name = " + metriG12.getName() + "\n");
 
-		GasMeter Elster = new GasMeter(1, 3, "W" ,"LvivFacrory");
-		System.out.println("Qmax = " + Elster.getQmax());
-		System.out.println("Distance = " + Elster.getDistance());
-		System.out.println("Name = " + Elster.getName() + "\n");
+		GasMeter elster = new GasMeter(1, 3, "W" ,"LvivFacrory");
+		System.out.println("Qmax = " + elster.getQmax());
+		System.out.println("Distance = " + elster.getDistance());
+		System.out.println("Name = " + elster.getName() + "\n");
 
-		GasMeter Vizard = new GasMeter(222, 33, "E" ,"MetrixFacrory");
-		System.out.println("Qmax = " + Vizard.getQmax());
-		System.out.println("Distance = " + Vizard.getDistance());
-		System.out.println("Name = " + Vizard.getName() + "\n");
+		GasMeter vizard = new GasMeter(222, 33, "E" ,"MetrixFacrory");
+		System.out.println("Qmax = " + vizard.getQmax());
+		System.out.println("Distance = " + vizard.getDistance());
+		System.out.println("Name = " + vizard.getName() + "\n");
 
-		GasMeter SamGas = new GasMeter(11, 55, "R" ,"VizarFacrory");
-		System.out.println("Qmax = " + SamGas.getQmax());
-		System.out.println("Distance = " + SamGas.getDistance());
-		System.out.println("Name = " + SamGas.getName() + "\n");
+		GasMeter samGas = new GasMeter(11, 55, "R" ,"VizarFacrory");
+		System.out.println("Qmax = " + samGas.getQmax());
+		System.out.println("Distance = " + samGas.getDistance());
+		System.out.println("Name = " + samGas.getName() + "\n");
 
-		GasMeter MetrixUG1 = new GasMeter(66, 7, "T" ,"ElsterFacrory");
-		System.out.println("Qmax = " + MetrixUG1.getQmax());
-		System.out.println("Distance = " + MetrixUG1.getDistance());
-		System.out.println("Name = " + MetrixUG1.getName() + "\n");
+		GasMeter metrixUG1 = new GasMeter(66, 7, "T" ,"ElsterFacrory");
+		System.out.println("Qmax = " + metrixUG1.getQmax());
+		System.out.println("Distance = " + metrixUG1.getDistance());
+		System.out.println("Name = " + metrixUG1.getName() + "\n");
 	}
 
 }
+
