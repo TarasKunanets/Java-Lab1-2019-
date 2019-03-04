@@ -89,11 +89,11 @@ public class GasMeter {
 
 	}
 
-	public static void printStaticNumber() {
+	static void printStaticNumber() {
 		System.out.println(number);
 	}
 
-	public void printNumber() {
+	static void printNumber() {
 		System.out.println(number);
 	}
 
